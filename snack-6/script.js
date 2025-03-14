@@ -22,3 +22,19 @@ console.log(zucchine);
 console.log(longOnes);
 
 console.log(shortOnes);
+
+// codice js plain
+
+let long =[];
+let short =[];
+
+for (let i = 0 ; i < zucchine.length; i++){
+  if(zucchine[i].length>=15){
+      long.push(zucchine[i]);
+  } else {
+    short.push(zucchine[i]);
+  }
+}
+
+console.log(long);
+console.log(short);
